@@ -1,0 +1,38 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Big-O gösterimini yazınız.
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+.
+
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız
+Insertion Sort aşamaları:
+
+Adım 1: [22, 27, 16, 2, 18, 6]
+Adım 2: [22, 27, 16, 2, 18, 6]
+Adım 3: [16, 22, 27, 2, 18, 6]
+Adım 4: [2, 16, 22, 27, 18, 6]
+Adım 5: [2, 16, 18, 22, 27, 6]
+Adım 6: [2, 6, 16, 18, 22, 27]
+
+Big-O gösterimi: Insertion Sort için en kötü durumda (worst case) O(n^2) zaman karmaşıklığına sahiptir.
+
+Time Complexity:
+Dizi sıralandıktan sonra 18 sayısı, average case'e girer. Çünkü aradığımız sayının ortada olması durumunda average case'e girilir.
+
+Selection Sort aşamaları:
+
+Adım 1: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+Adım 2: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+Adım 3: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+Adım 4: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+
+İlk 4 adım bu şekildedir. Selection Sort'ta her adımda en küçük elemanı bulup başa getirir. Bu işlemi sırasıyla gerçekleştirirken dizinin tamamında sıralama yapmaz, sadece minimum elemanı bulup onu uygun yere yerleştirir.
